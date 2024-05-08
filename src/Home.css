@@ -1,0 +1,71 @@
+.layout{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+}
+.App-logo{
+    margin: 0;
+    height: 50px;
+    width:100px;
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-items li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+.list-items li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+.list-items li a:hover{
+    color: rgb(3, 213, 250);
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.b1{
+    border-color:rgb(3, 213, 250);
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 213, 250);
+}
+.b2{
+    background-color: rgb(3, 213, 250);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.phase1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Quote{
+    font-family: Gill Sans, sans-serif	;
+}
+.highlight{
+    color: rgb(3, 213, 250);
+}
+.post-search{
+    width:500px;
+    background-color: rgb(222, 255, 255);
+    border-color: rgb(3, 213, 250);
+    border-radius: 20px;
+}
+.topic{
+    margin-top: 20px;
+}
+video{
+    height: 400px;
+    width: 400px;
+    margin: 0;
+}
